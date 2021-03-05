@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  font-size: 3rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.buttons-wrapper {
+}
+
+button {
+  min-width: 110px;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  background-color: #53a07c;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
